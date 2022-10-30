@@ -1,5 +1,5 @@
 # mentora-me
-
+### CLONE DA API https://github.com/getwlad/mentora-me, mas com typescript.
 ## Índice
 
 - [Sobre o Projeto](#sobre-o-projeto)

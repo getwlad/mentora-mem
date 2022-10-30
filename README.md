@@ -20,14 +20,14 @@ Dessa maneira, a _Mentora-me_ é uma plataforma desenvolvida para auxiliar indiv
 
 ## Documentação
 
-- [Mentora-me](https://mentora-me.herokuapp.com/docs)
+- [Mentora-mem](https://mentora-mem.herokuapp.com/docs)
 
 ## Instalação
 
 Utilize o _mentora-me_ localmente com o npm.
 
 ```bash
-  git clone git@github.com:getwlad/mentora-me.git
+  git clone git@github.com:getwlad/mentora-mem.git
   cd mentora-me
   npm i
   # instalar dependências
@@ -117,6 +117,7 @@ A implementação do projeto se deu por 5 sprints:
 [![Heroku](https://img.shields.io/badge/Heroku-430098?&style=for-the-badge&logo=heroku&logoColor=white)](https://devcenter.heroku.com/)
 [![Git](https://img.shields.io/badge/GIT-E44C30?&style=for-the-badge&logo=git&logoColor=white)](https://git-scm.com/doc)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?&style=for-the-badge&logo=github&logoColor=white)](https://github.com/)
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
 
 ## Equipe
 

@@ -37,6 +37,13 @@ module.exports = {
         allowNull: false,
         unique: true,
       },
+      interest_area_id: {
+        type: Sequelize.UUID,
+        references: { model: "InterestArea", key: "id" },
+        onUpdate: "CASCADE",
+        onDelete: "CASCADE",
+        allowNull: false,
+      },
 
       created_at: {
         type: Sequelize.DATE,

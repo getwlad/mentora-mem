@@ -9,10 +9,7 @@ module.exports = {
         primaryKey: true,
         allowNull: false,
       },
-      extrovert: {
-        type: Sequelize.ENUM("1", "2", "3"),
-        allowNull: false,
-      },
+
       theory: {
         type: Sequelize.ENUM("1", "2", "3"),
         allowNull: false,

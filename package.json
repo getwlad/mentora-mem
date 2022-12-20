@@ -5,7 +5,7 @@
   "main": "src/server.ts",
   "scripts": {
     "start": "node build/server.js",
-    "poststart": "npx sequelize-cli db:migrate",
+    "prestart": "npx sequelize-cli db:migrate",
     "postinstall": "tsc",
     "pretest": "set NODE_ENV=test&&sequelize db:migrate",
     "test": "set NODE_ENV=test&&vitest --no-threads",

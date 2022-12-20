@@ -2,7 +2,7 @@
 
 module.exports = {
   async up(queryInterface, Sequelize) {
-    return await queryInterface.createTable("student", {
+    return await queryInterface.createTable("Student", {
       id: {
         type: Sequelize.UUID,
         defaultValue: Sequelize.UUIDV4,
@@ -29,7 +29,7 @@ module.exports = {
       },
       user_id: {
         type: Sequelize.UUID,
-        references: { model: "user", key: "id" },
+        references: { model: "User", key: "id" },
         onUpdate: "CASCADE",
         onDelete: "CASCADE",
         allowNull: false,
@@ -47,6 +47,6 @@ module.exports = {
   },
 
   async down(queryInterface, Sequelize) {
-    return await queryInterface.dropTable("student");
+    return await queryInterface.dropTable("Student");
   },
 };

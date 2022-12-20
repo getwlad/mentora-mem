@@ -36,7 +36,7 @@ module.exports = {
       },
       mentor_id: {
         type: Sequelize.UUID,
-        references: { model: "mentor", key: "id" },
+        references: { model: "Mentor", key: "id" },
         onUpdate: "CASCADE",
         onDelete: "CASCADE",
         defaultValue: null,
@@ -45,7 +45,7 @@ module.exports = {
       },
       student_id: {
         type: Sequelize.UUID,
-        references: { model: "student", key: "id" },
+        references: { model: "Student", key: "id" },
         onUpdate: "CASCADE",
         onDelete: "CASCADE",
         defaultValue: null,

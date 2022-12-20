@@ -2,13 +2,13 @@
 
 module.exports = {
   async up(queryInterface, Sequelize) {
-    return await queryInterface.createTable("studentHasCourse", {
+    return await queryInterface.createTable("StudentHasCourse", {
       student_id: {
         type: Sequelize.UUID,
         defaultValue: Sequelize.UUIDV4,
         primaryKey: true,
         allowNull: false,
-        references: { model: "student", key: "id" },
+        references: { model: "Student", key: "id" },
         onUpdate: "CASCADE",
         onDelete: "CASCADE",
         allowNull: false,
@@ -18,7 +18,7 @@ module.exports = {
         type: Sequelize.UUID,
         defaultValue: Sequelize.UUIDV4,
         primaryKey: true,
-        references: { model: "mentorship", key: "id" },
+        references: { model: "Mentorship", key: "id" },
         onUpdate: "CASCADE",
         onDelete: "CASCADE",
         allowNull: false,
@@ -27,6 +27,6 @@ module.exports = {
   },
 
   async down(queryInterface, Sequelize) {
-    return await queryInterface.dropTable("studentHasCourse");
+    return await queryInterface.dropTable("StudentHasCourse");
   },
 };

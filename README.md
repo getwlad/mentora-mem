@@ -1,5 +1,7 @@
 # mentora-me
+
 ### CLONE DA API https://github.com/getwlad/mentora-me, mas com typescript.
+
 ## Índice
 
 - [Sobre o Projeto](#sobre-o-projeto)
@@ -20,7 +22,7 @@ Dessa maneira, a _Mentora-me_ é uma plataforma desenvolvida para auxiliar indiv
 
 ## Documentação
 
-- [Mentora-mem](https://mentora-mem.herokuapp.com/docs)
+- [Mentora-mem](https://mentora-me.cyclic.app/docs/)
 
 ## Instalação
 
